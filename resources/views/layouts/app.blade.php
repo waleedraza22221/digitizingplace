@@ -110,7 +110,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Orders</h6>
-                        <a class="collapse-item" href="utilities-border.html">New Order</a>
+
+                        <a class="collapse-item" href="{{ route('order.create') }}">New Order</a>
                         <a class="collapse-item" href="utilities-border.html">In Process</a>
                         <a class="collapse-item" href="utilities-animation.html">In Revisions</a>
                         <a class="collapse-item" href="utilities-animation.html">Completed</a>
